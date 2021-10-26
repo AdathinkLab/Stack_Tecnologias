@@ -5,6 +5,12 @@
             "ruta":"/stacks/NodeJS/index.html",
             "nombreCompleto":"Node JS",
             "imagen": "https://help.wnpower.com/hc/article_attachments/360029039852/mceclip0.png"
+        },
+        "php":{
+            "editores":[ "yorgi" ],
+            "ruta":"/stacks/php/index.html",
+            "nombreCompleto":"php",
+            "imagen": "https://kinsta.com/es/wp-content/uploads/sites/8/2018/05/qu%C3%A9-es-php-1-1024x512.png"
         }
     }
 }
