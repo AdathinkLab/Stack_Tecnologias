@@ -1,0 +1,10 @@
+{
+    "tecnologias":{
+        "NodeJS":{
+            "editores":[ "arsevys" ],
+            "ruta":"/stacks/NodeJS/index.html",
+            "nombreCompleto":"Node JS",
+            "imagen": "https://help.wnpower.com/hc/article_attachments/360029039852/mceclip0.png"
+        }
+    }
+}

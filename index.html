@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <div> <h1>Lista de los Stacks :</h1> </div>
+    </nav>
+    <main id="app">
+        <div class="contenedor">
+            <div class=" item" v-for="stack in printableStacks">
+             
+                <div class="card">
+                    <center>
+                    <p>{{ stack.nombreCompleto }}</p>
+                    <img class="card-img-top" :src="stack.imagen" /><br>
+                    <b><a :href="stack.ruta"> Ver Informacion</a></b>
+                </center>
+                </div>
+                
+              <br>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <footer>With ❤️ from Peru and the Internet, to the World 🌎</footer>
+    </footer>
+</body>
+<script src="./index.js"></script>
+</html>

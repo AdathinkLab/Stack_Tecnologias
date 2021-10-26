@@ -1,0 +1,22 @@
+#app img {
+    width: 200px;
+    height: 200px;
+}
+#app .card p {
+    font-size:40px;
+}
+.item {
+    margin: 3px;
+    padding: 3px;
+    width: 300px;
+
+}
+nav {
+    margin: 0 auto;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
